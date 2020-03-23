@@ -1,0 +1,49 @@
+{
+  "properties": [
+    {
+      "name": "container.postgres.enabled",
+      "type": "java.lang.String",
+      "description": "property to activate the postgres container."
+    },
+    {
+      "name": "container.postgres.name",
+      "type": "java.lang.String",
+      "description": "the name of the created container."
+    },
+    {
+      "name": "container.postgres.image-name",
+      "type": "java.lang.String",
+      "description": "the image to be used to create the container."
+    },
+    {
+      "name": "container.postgres.hostname",
+      "type": "java.lang.String",
+      "description": "the host name of the container."
+    },
+    {
+      "name": "container.postgres.database.name",
+      "type": "java.lang.String",
+      "description": "the name of database."
+    },
+    {
+      "name": "container.postgres.database.schema-name",
+      "type": "java.lang.String",
+      "description": "the name of the schema."
+    },
+    {
+      "name": "container.postgres.database.port",
+      "type": "java.lang.String",
+      "description": "the value of the exposed port."
+    },
+    {
+      "name": "container.postgres.database.username",
+      "type": "java.lang.String",
+      "description": "the username to be used to access to database."
+    },
+    {
+      "name": "container.postgres.database.password",
+      "type": "java.lang.String",
+      "description": "the password to be used to access to database."
+    }
+  ]
+}
