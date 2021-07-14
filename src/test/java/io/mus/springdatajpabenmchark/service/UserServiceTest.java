@@ -70,5 +70,15 @@ public class UserServiceTest {
 		role.setId(2L);
 		userService.deleteByRoleEquals(role);
 	}
-
+	/*
+	
+	final List<Integer> values = Arrays.asList(1, 1, 2, 2, 3, 3, 3, 4, 5);
+        final AtomicInteger splitCount = new AtomicInteger();
+        final Collection<List<Integer>> result = values.stream()
+                .collect(groupingBy(Function.identity(), Collectors.toList()))
+                .values()
+                .stream()
+                .flatMap(Collection::stream)
+                .collect(groupingBy(cdm -> splitCount.getAndIncrement() / 2)).values();
+*/
 }
